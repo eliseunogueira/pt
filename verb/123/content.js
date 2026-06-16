@@ -1,0 +1,13 @@
+var lessonNumber = 123;
+var conjNum = 2;
+var verbTypeNum = 2;
+var narration =  ["For regular <strong>ER</strong> verbs, the endings are fairly different to <strong>AR</strong> endings."];
+var replaceText  = ["","beb","aprend","corr","vend","com"];
+var englishVerbs  = ["Infinitive","To drink","To learn","To run","To sell","To eat"];
+var forConj2 = ["(eu) zzzz<strong>i</strong>","(tu) zzzz<strong>este</strong>","(você) zzzz<strong>eu</strong>","(ele/ela) zzzz<strong>eu</strong>","(nós) zzzz<strong>emos</strong>","(vocês) zzzz<strong>eram</strong>","(eles/elas) zzzz<strong>eram</strong>"];
+var engConj2Z = ["1st Person Singular","2nd Person Singular","2nd Person Sing. (3rd)","3rd Person Singular","1st Person Plural","2nd Person Plural (3rd)","3rd Person Plural"];
+var engConj2A = ["I drank","you drank <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you drank <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she drank","we drank","you drank <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they drank"];
+var engConj2B = ["I learned","you learned <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you learned <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she learned","we learned","you learned <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they learned"];
+var engConj2C = ["I ran","you ran <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you ran <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she ran","we ran","you ran <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they ran"];
+var engConj2D = ["I sold","you sold <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you sold <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she sold","we sold","you sold <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they sold"];
+var engConj2E = ["I ate","you ate <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you ate <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she ate","we ate","you ate <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they ate"];

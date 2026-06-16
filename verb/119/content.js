@@ -1,0 +1,14 @@
+var lessonNumber = 119;
+var conjNum = 3;
+var verbTypeNum = 1;
+var narration =  ["For regular <strong>AR</strong> verbs in the imperfect, the endings are pretty unique and interesting. Let's take a look!"];
+var replaceText  = ["","am","march","ajud","fal","trabalh"];
+var englishVerbs  = ["Infinitive","To love","To walk","To help","To speak","To work"];
+var forConj3 = ["(eu) zzzz<strong>ava</strong>","(tu) zzzz<strong>avas</strong>","(você) zzzz<strong>ava</strong>","(ele/ela) zzzz<strong>ava</strong>","(nós) zzzz<strong>ávamos</strong>","(vocês) zzzz<strong>avam</strong>","(eles/elas) zzzz<strong>avam</strong>"];
+var engConj3Z = ["1st Person Singular","2nd Person Singular","2nd Person Sing. (3rd)","3rd Person Singular","1st Person Plural","2nd Person Plural (3rd)","3rd Person Plural"];
+
+var engConj3A = ["I used to love","you used to love <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you used to love <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she used to love","we used to love","you used to love <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they used to love"];
+var engConj3B = ["I was walking","you were walking <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you were walking <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she was walking","we were walking","you were walking <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they were walking"];
+var engConj3C = ["I was helping","you were helping <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you were helping <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she was helping","we were helping","you were helping <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they were helping"];
+var engConj3D = ["I was speaking","you were speaking <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you were speaking <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she was speaking","we were speaking","you were speaking <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they were speaking"];
+var engConj3E = ["I used to work","you used to work <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you used to work <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she used to work","we used to work","you used to work <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they used to work"];

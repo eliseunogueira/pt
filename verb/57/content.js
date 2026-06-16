@@ -1,0 +1,18 @@
+var lessonNumber = 57;var lessonTitle = "Ter que (To have to)";var forExamples = ["Ter que","Faz parte da rotina deles <strong>ter que</strong> caminhar até a casa da fazenda.","(Você) tem que","<strong>Você tem que</strong> me dar alguns conselhos.","(Ele) teve que","<strong>Ele teve que</strong> trabalhar muito duro.","(Nós) tínhamos que","<strong>Tínhamos que</strong> fazer nossa lição de casa.","(Você) terá que","<strong>Você terá que</strong> contar a verdade.","(Eles) teriam que","<strong>Eles teriam que</strong> encontrar outra solução."];var engExamples = ["To have to","It's part of their routine <em>to have to</em> walk to the farmhouse.","You have to","<em>You have to</em> give me some advice. (Brazil informal)","He had to","<em>He had to</em> work very hard.","We used to have to","<em>We used to have to</em> do our homework.","You will have to","<em>You will have to</em> tell the truth. (Brazil informal)","They should","<em>They should</em> find another solution."];var btnColor = ["#1EEC00","#163F00"];
+
+var forConj1 = ["eu t<strong>enho</strong> que","tu t<strong>ens</strong> que","você t<strong>em</strong> que","ele/ela t<strong>em</strong> que","nós t<strong>emos</strong> que","vocês t<strong>êm</strong> que","eles/elas t<strong>êm</strong> que"];
+var forConj2 = ["eu t<strong>ive</strong> que","tu t<strong>iveste</strong> que","você t<strong>eve</strong> que","ele/ela t<strong>eve</strong> que","nós t<strong>ivemos</strong> que","vocês t<strong>iveram</strong> que","eles/elas t<strong>iveram</strong> que"];
+var forConj3 = ["eu t<strong>inha</strong> que","tu t<strong>inhas</strong> que","você t<strong>inha</strong> que","ele/ela t<strong>inha</strong> que","nós t<strong>ínhamos</strong> que","vocês t<strong>inham</strong> que","eles/elas t<strong>inham</strong> que"];
+var forConj4 = ["eu t<strong>erei</strong> que","tu t<strong>erás</strong> que","você t<strong>erá</strong> que","ele/ela t<strong>erá</strong> que","nós t<strong>eremos</strong> que","vocês t<strong>erão</strong> que","eles/elas t<strong>erão</strong> que"];
+var forConj5 = ["eu t<strong>eria</strong> que","tu t<strong>erias</strong> que","você t<strong>eria</strong> que","ele/ela t<strong>eria</strong> que","nós t<strong>eríamos</strong> que","vocês t<strong>eriam</strong> que","eles/elas t<strong>eriam</strong> que"];
+
+var engConj1 = ["I have to","you have to (PT)","you have to (BR)","he/she/it has to","we have to","you have to (plural)","they have to"];var engConj2 = ["I had to","you had to (PT)","you had to (BR)","he/she/it had to","we had to","you had to (plural)","they had to"];
+var engConj3 = ["I used to have to","you used to have to (PT)","you used to have to (BR)","he/she/it used to have to","we used to have to","you used to have to (plural)","they used to have to"];var engConj4 = ["I will have to","you will have to (PT)","you will have to (BR)","he/she/it will have to","we will have to","you will have to (plural)","they will have to"];var engConj5 = ["I should","you should (PT)","you should (BR)","he/she/it should","we should","you should (plural)","they should"];
+
+var quizConj1 = ["tenho que","tens que","tem que","temos que","têm que","têm que"];
+var quizConj2 = ["tive que","tiveste que","teve que","tivemos que","tiveram que","tiveram que"];
+var quizConj3 = ["tinha que","tinhas que","tinha que","tínhamos que","tinham que","tinham que"];
+var quizConj4 = ["terei que","terás que","terá que","teremos que","terão que","terão que"];
+var quizConj5 = ["teria que","terias que","teria que","teríamos que","teriam que","teriam que"];
+
+var verbTypeNum = 5;var forConj6 = "tendo que";var forConj7 = "t";var pronominal = false;var conjNum = [0,0,1,1,2,2,3,3,4,4,5,5];var irregReason = [""];

@@ -1,0 +1,9 @@
+var lessonNumber = 56;var lessonTitle = "Onde está? (Where is it?)";var forExamples = ["/Onde está?","/Está à esquerda.","/Está à direita.","/Está à frente.","/Está na frente de…","/Está atrás de…","/Está longe.","/Está perto.","/Está no andar de cima.","/Está no andar de baixo.","/Está ao lado de…","/Está ao norte.","/Está ao sul.","/Está à leste.","/Está à oeste."];var engExamples = ["Where is it?","It's to the left.","It's to the right.","It's straight ahead.","It's in front of...","It's behind...","It's far away.","It's close.","It's upstairs.","It's downstairs.","It's next to...","It's to the north.","It's to the south.","It's to the east.","It's to the west."];var engButtons = engExamples;var btnColor = ["#1EEC00","#163F00","#90E700","#254800"];var lessonType = "normal";var numToRemove = [1];
+
+var fillQuestions = ["Onde está?","Onde está?","Onde está?","Onde está?","Onde está?"];
+var fillQuestionsEng = ["It's to the left.","It's straight ahead.","It's in front.","It's downstairs.","It's to the north."];
+
+var fillAnswers = ["Está à esquerda.","Está à frente.","Está na frente.","Está no andar de baixo.","Está ao norte."];
+var fillAnswersEng = ["It's to the left.","It's straight ahead.","It's in front.","It's downstairs.","It's to the north."];
+
+var quizFillArray = [2,4,5,10,12];var quizMapArray = [2];var quizMultiArray = [];var quizExamples = ["Onde está?","Está à esquerda.","Está à direita.","Está à frente.","Está na frente de…","Está atrás de…","Está longe.","Está perto.","Está no andar de cima.","Está no andar de baixo.","Está ao lado de…","Está ao norte.","Está ao sul.","Está à leste.","Está à oeste."];

@@ -1,0 +1,13 @@
+var lessonNumber = 133;
+var conjNum = 1;
+var verbTypeNum = 2;
+var narration =  ["Regular <strong>ER</strong> verbs end with <strong>ENDO</strong>."];
+var forConj1 = ["(eu) estou zzzz<strong>endo</strong>","(tu) estás zzzz<strong>endo</strong>","(você) está zzzz<strong>endo</strong>","(ele/ela) está zzzz<strong>endo</strong>","(nós) estamos zzzz<strong>endo</strong>","(vocês) estão zzzz<strong>endo</strong>","(eles/elas) estão zzzz<strong>endo</strong>"];
+var replaceText  = ["", "com","beb","aprend","corr","vend"];
+var englishVerbs  = ["Infinitive", "To eat","To drink","To learn","To run","To sell"];
+var engConj1Z = ["1st Person Singular","2nd Person Singular","2nd Person Sing. (3rd)","3rd Person Singular","1st Person Plural","2nd Person Plural (3rd)","3rd Person Plural"];
+var engConj1A = ["I am eating","you are eating <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you are eating <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she is eating","we are eating","you are eating <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they are eating"];
+var engConj1B = ["I am drinking","you are drinking <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you are drinking <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she is drinking","we are drinking","you are drinking <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they are drinking"];
+var engConj1C = ["I am learning","you are learning <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you are learning <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she is learning","we are learning","you are learning <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they are learning"];
+var engConj1D = ["I am running","you are running <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you are running <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she is running","we are running","you are running <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they are running"];
+var engConj1E = ["I am selling","you are selling <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you are selling <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she is selling","we are selling","you are selling <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they are selling"];

@@ -1,0 +1,13 @@
+var lessonNumber = 129;
+var conjNum = 3;
+var verbTypeNum = 3;
+var narration =  ["The endings for <strong>IR</strong> verbs are the exact same as <strong>ER</strong> verbs for the imperfect tense."];
+var replaceText = ["","assist","part","discut","abr","decid"];
+var englishVerbs = ["Infinitive","To watch","To leave","To discuss","To open","To decide"];
+var forConj3 = ["(eu) zzzz<strong>ia</strong>","(tu) zzzz<strong>ias</strong>","(você) zzzz<strong>ia</strong>","(ele/ela) zzzz<strong>ia</strong>","(nós) zzzz<strong>íamos</strong>","(vocês) zzzz<strong>iam</strong>","(eles/elas) zzzz<strong>iam</strong>"];
+var engConj3Z = ["1st Person Singular","2nd Person Singular","2nd Person Sing. (3rd)","3rd Person Singular","1st Person Plural","2nd Person Plural (3rd)","3rd Person Plural"];
+var engConj3A = ["I was watching","you were watching <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you were watching <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she was watching","we were watching","you were watching <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they were watching"];
+var engConj3B = ["I was leaving","you were leaving <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you were leaving <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she was leaving","we were leaving","you were leaving <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they were leaving"];
+var engConj3C = ["I was discussing","you were discussing <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you were discussing <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she was discussing","we were discussing","you were discussing <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they were discussing"];
+var engConj3D = ["I was opening","you were opening <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you were opening <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she was opening","we were opening","you were opening <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they were opening"];
+var engConj3E = ["I used to decide","you used to decide <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you used to decide <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she used to decide","we used to decide","you used to decide <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they used to decide"];

@@ -1,0 +1,13 @@
+var lessonNumber = 124;
+var conjNum = 3;
+var verbTypeNum = 2;
+var narration =  ["The following endings are for regular <strong>ER</strong> verbs in the imperfect."];
+var replaceText  = ["","aprend","corr","vend","com","beb"];
+var englishVerbs  = ["Infinitive","To learn","To run","To sell","To eat","To drink"];
+var forConj3 = ["(eu) zzzz<strong>ia</strong>","(tu) zzzz<strong>ias</strong>","(você) zzzz<strong>ia</strong>","(ele/ela) zzzz<strong>ia</strong>","(nós) zzzz<strong>íamos</strong>","(vocês) zzzz<strong>iam</strong>","(eles/elas) zzzz<strong>iam</strong>"];
+var engConj3Z = ["1st Person Singular","2nd Person Singular","2nd Person Sing. (3rd)","3rd Person Singular","1st Person Plural","2nd Person Plural (3rd)","3rd Person Plural"];
+var engConj3A = ["I was learning","you were learning <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you were learning <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she was learning","we were learning","you were learning <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they were learning"];
+var engConj3B = ["I was running","you were running <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you were running <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she was running","we were running","you were running <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they were running"];
+var engConj3C = ["I was selling","you were selling <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you were selling <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she was selling","we were selling","you were selling <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they were selling"];
+var engConj3D = ["I was eating","you were eating <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you were eating <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she was eating","we were eating","you were eating <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they were eating"];
+var engConj3E = ["I used to drink","you used to drink <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you used to drink <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she used to drink","we used to drink","you used to drink <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they used to drink"];

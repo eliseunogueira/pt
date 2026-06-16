@@ -1,0 +1,13 @@
+var lessonNumber = 134;
+var conjNum = 1;
+var verbTypeNum = 3;
+var narration =  ["Regular <strong>IR</strong> verbs end with <strong>INDO</strong>."];
+var forConj1 = ["(eu) estou zzzz<strong>indo</strong>","(tu) estás zzzz<strong>indo</strong>","(você) está zzzz<strong>indo</strong>","(ele/ela) está zzzz<strong>indo</strong>","(nós) estamos zzzz<strong>indo</strong>","(vocês) estão zzzz<strong>indo</strong>","(eles/elas) estão zzzz<strong>indo</strong>"];
+var replaceText  = ["", "abr","decid","assist","part","discut"];
+var englishVerbs  = ["Infinitive", "To open","To decide","To watch","To leave","To discuss"];
+var engConj1Z = ["1st Person Singular","2nd Person Singular","2nd Person Sing. (3rd)","3rd Person Singular","1st Person Plural","2nd Person Plural (3rd)","3rd Person Plural"];
+var engConj1A = ["I am opening","you are opening <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you are opening <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she is opening","we are opening","you are opening <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they are opening"];
+var engConj1B = ["I am deciding","you are deciding <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you are deciding <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she is deciding","we are deciding","you are deciding <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they are deciding"];
+var engConj1C = ["I am watching","you are watching <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you are watching <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she is watching","we are watching","you are watching <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they are watching"];
+var engConj1D = ["I am leaving","you are leaving <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you are leaving <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she is leaving","we are leaving","you are leaving <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they are leaving"];
+var engConj1E = ["I am discussing","you are discussing <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you are discussing <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she is discussing","we are discussing","you are discussing <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they are discussing"];

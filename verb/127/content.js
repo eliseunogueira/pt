@@ -1,0 +1,13 @@
+var lessonNumber = 127;
+var conjNum = 1;
+var verbTypeNum = 3;
+var narration =  ["In this lesson, you will learn the endings for regular <strong>IR</strong> verbs.","The <strong>IR</strong> endings are the same as the <strong>ER</strong> endings, except for the first person plural."];
+var replaceText  = ["", "abr","decid","assist","part","discut"];
+var englishVerbs  = ["Infinitive", "To open","To decide","To watch","To leave","To discuss"];
+var forConj1 = ["(eu) zzzz<strong>o</strong>","(tu) zzzz<strong>es</strong>","(você) zzzz<strong>e</strong>","(ele/ela) zzzz<strong>e</strong>","(nós) zzzz<strong>imos</strong>","(vocês) zzzz<strong>em</strong>","(eles/elas) zzzz<strong>em</strong>"];
+var engConj1Z = ["1st Person Singular","2nd Person Singular","2nd Person Sing. (3rd)","3rd Person Singular","1st Person Plural","2nd Person Plural (3rd)","3rd Person Plural"];
+var engConj1A = ["I open","you open <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you open <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she opens","we open","you open <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they open"];
+var engConj1B = ["I decide","you decide <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you decide <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she decides","we decide","you decide <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they decide"];
+var engConj1C = ["I watch","you watch <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you watch <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she watches","we watch","you watch <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they watch"];
+var engConj1D = ["I leave","you leave <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you leave <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she leaves","we leave","you leave <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they leave"];
+var engConj1E = ["I discuss","you discuss <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you discuss <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she discusses","we discuss","you discuss <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they discuss"];

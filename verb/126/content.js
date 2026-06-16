@@ -1,0 +1,13 @@
+var lessonNumber = 126;
+var conjNum = 5;
+var verbTypeNum = 2;
+var narration =  ["Notice that in regular <strong>ER</strong> verbs, the first <strong>A</strong> in the endings is changed to an <strong>E</strong>.","It is the only difference from regular <strong>AR</strong> verbs."];
+var replaceText  = ["","com","vend","beb","aprend","corr"];
+var englishVerbs  = ["Infinitive","To eat","To sell","To drink","To learn","To run"];
+var forConj5 = ["(eu) zzzz<strong>eria</strong>","(tu) zzzz<strong>erias</strong>","(você) zzzz<strong>eria</strong>","(ele/ela) zzzz<strong>eria</strong>","(nós) zzzz<strong>eríamos</strong>","(vocês) zzzz<strong>eriam</strong>","(eles/elas) zzzz<strong>eriam</strong>"];
+var engConj5Z = ["1st Person Singular","2nd Person Singular","2nd Person Sing. (3rd)","3rd Person Singular","1st Person Plural","2nd Person Plural (3rd)","3rd Person Plural"];
+var engConj5A = ["I would eat","you would eat <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you would eat <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she would eat","we would eat","you would eat <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they would eat"];
+var engConj5B = ["I would sell","you would sell <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you would sell <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she would sell","we would sell","you would sell <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they would sell"];
+var engConj5C = ["I would drink","you would drink <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you would drink <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she would drink","we would drink","you would drink <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they would drink"];
+var engConj5D = ["I would learn","you would learn <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you would learn <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she would learn","we would learn","you would learn <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they would learn"];
+var engConj5E = ["I would run","you would run <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","you would run <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","he/she would run","we would run","you would run <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","they would run"];

@@ -1,0 +1,20 @@
+var lessonNumber = 64;var lessonTitle = "Ir (To leave / To go away)";
+var forExamples = ["Ir embora","Ela quer <strong>ir embora</strong> da biblioteca.","(Eles) vão embora","<strong>Eles vão embora</strong> da escola às três e meia.","(Nós) fomos embora","<strong>Fomos embora</strong> viajar ao Brasil.","(Você) ia embora","<strong>Você ia embora</strong> do trabalho muito cedo.","(Ela) irá embora","<strong>Ela irá embora</strong> quando tiver terminado todo o trabalho.","(Eu) iria embora","Se fossem cinco horas, <strong>eu iria embora</strong>."];
+var engExamples = ["To leave / To go away","She wants <em>to leave</em> the library.","They leave","<em>They leave</em> school at three thirty.","We left","<em>We left</em> on a trip to Brazil.","You used to leave","<em>You used to leave</em> work very early. (Brazil informal)","She will leave","<em>She will leave</em> when she has finished all the work.","I would leave","If it were five o'clock, <em>I would leave</em>."];var btnColor = ["#1EEC00","#163F00"];
+
+var forConj1 = ["eu <strong>vou</strong> embora","tu <strong>vais</strong> embora","você <strong>vai</strong> embora","ele/ela <strong>vai</strong> embora","nós <strong>vamos</strong> embora","vocês <strong>vão</strong> embora","eles/elas <strong>vão</strong> embora"];
+var forConj2 = ["eu <strong>fui</strong> embora","tu <strong>foste</strong> embora","você <strong>foi</strong> embora","ele/ela <strong>foi</strong> embora","nós <strong>fomos</strong> embora","vocês <strong>foram</strong> embora","eles/elas <strong>foram</strong> embora"];
+var forConj3 = ["eu <strong>ia</strong> embora","tu <strong>ias</strong> embora","você <strong>ia</strong> embora","ele/ela <strong>ia</strong> embora","nós <strong>íamos</strong> embora","vocês <strong>iam</strong> embora","eles/elas <strong>iam</strong> embora"];
+var forConj4 = ["eu <strong>irei</strong> embora","tu <strong>irás</strong> embora","você <strong>irá</strong> embora","ele/ela <strong>irá</strong> embora","nós <strong>iremos</strong> embora","vocês <strong>irão</strong> embora","eles/elas <strong>irão</strong> embora"];
+var forConj5 = ["eu <strong>iria</strong> embora","tu <strong>irias</strong> embora","você <strong>iria</strong> embora","ele/ela <strong>iria</strong> embora","nós <strong>iríamos</strong> embora","vocês <strong>iriam</strong> embora","eles/elas <strong>iriam</strong> embora"];
+
+var engConj1 = ["I leave","you leave (PT)","you leave (BR)","he/she/it leaves","we leave","you leave (plural)","they leave"];var engConj2 = ["I left","you left (PT)","you left (BR)","he/she/it left","we left","you left (plural)","they left"];var engConj3 = ["I used to leave","you used to leave (PT)","you used to leave (BR)","he/she/it used to leave","we used to leave","you used to leave (plural)","they used to leave"];var engConj4 = ["I will leave","you will leave (PT)","you will leave (BR)","he/she/it will leave","we will leave","you will leave (plural)","they will leave"];var engConj5 = ["I would leave","you would leave (PT)","you would leave (BR)","he/she/it would leave","we would leave","you would leave (plural)","they would leave"];
+
+var quizConj1 = ["vou embora","vais embora","vai embora","vamos embora","vão embora","vão embora"];
+var quizConj2 = ["fui embora","foste embora","foi embora","fomos embora","foram embora","foram embora"];
+var quizConj3 = ["ia embora","ias embora","ia embora","íamos embora","iam embora","iam embora"];
+var quizConj4 = ["irei embora","irás embora","irá embora","iremos embora","irão embora","irão embora"];
+var quizConj5 = ["iria embora","irias embora","iria embora","iríamos embora","iriam embora","iriam embora"];
+
+var verbTypeNum = 6;var forConj6 = "indo embora";var forConj7 = "none";var pronominal = false;var conjNum = [0,0,1,1,2,2,3,3,4,4,5,5];var irregReason = [""];
+var extraNote = 'This verb is actually the Portuguese verb <strong>Ir</strong> (to go), followed by "embora", which means "away" in this case.';

@@ -1,0 +1,13 @@
+var lessonNumber = 137;
+var conjNum = 6;
+var verbTypeNum = 3;
+var narration =  ["For the subjunctive, the endings for regular <strong>IR</strong> verbs are the same as regular <strong>ER</strong> verbs."];
+var replaceText  = ["", "part","abr","exist","assist","decid"];
+var englishVerbs  = ["Infinitive", "To leave","To open","To exist","To watch","To decide"];
+var forConj6 = ["que (eu) zzzz<strong>a</strong>","que (tu) zzzz<strong>as</strong>","que (você) zzzz<strong>a</strong>","que (ele/ela) zzzz<strong>a</strong>","que (nós) zzzz<strong>amos</strong>","que (vocês) zzzz<strong>am</strong>","que (eles/elas) zzzz<strong>am</strong>"];
+var engConj6Z = ["1st Person Singular","2nd Person Singular","2nd Person Sing. (3rd)","3rd Person Singular","1st Person Plural","2nd Person Plural (3rd)","3rd Person Plural"];
+var engConj6A = ["that I leave","that you leave <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you leave <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she leave(s)","that we leave","that you leave <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they leave"];
+var engConj6B = ["that I open","that you open <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you open <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she open(s)","that we open","that you open <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they open"];
+var engConj6C = ["that I exist","that you exist <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you exist <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she exist(s)","that we exist","that you exist <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they exist"];
+var engConj6D = ["that I watch","that you watch <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you watch <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she watche(s)","that we watch","that you watch <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they watch"];
+var engConj6E = ["that I decide","that you decide <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you decide <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she decide(s)","that we decide","that you decide <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they decide"];

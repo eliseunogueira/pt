@@ -1,0 +1,13 @@
+var lessonNumber = 139;
+var conjNum = 7;
+var verbTypeNum = 2;
+var narration =  ["The endings for regular <strong>ER</strong> verbs in the imperative are very similar to <strong>AR</strong> verb endings.","Simply invert the <strong>A</strong> and <strong>E</strong> from the <strong>AR</strong> endings."];
+var replaceText  = ["", "depend","corr","aprend","beb","com"];
+var englishVerbs  = ["Infinitive", "To depend","To run","To learn","To drink","To eat"];
+var forConj7 = ["<strong>-</strong>","zzzz<strong>e</strong>","não zzzz<strong>as</strong>","zzzz<strong>a</strong>","zzzz<strong>amos</strong>","zzzz<strong>am</strong>","<strong>-</strong>"];
+var engConj7Z = ["-","2nd Person Sing. (positive)","2nd Person Sing. (negative)","2nd Person Sing. (3rd)","1st Person Plural","2nd Person Plural (3rd)","-"];
+var engConj7A = ["-","depend <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't depend <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","depend <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's depend","depend <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];
+var engConj7B = ["-","run <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't run <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","run <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's run","run <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];
+var engConj7C = ["-","learn <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't learn <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","learn <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's learn","learn <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];
+var engConj7D = ["-","drink <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't drink <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","drink <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's drink","drink <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];
+var engConj7E = ["-","eat <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't eat <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","eat <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's eat","eat <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];

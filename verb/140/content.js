@@ -1,0 +1,13 @@
+var lessonNumber = 140;
+var conjNum = 7;
+var verbTypeNum = 3;
+var narration =  ["The endings for regular <strong>IR</strong> verbs in the imperative are the same as the <strong>ER</strong> verb endings."];
+var replaceText  = ["", "decid","assist","exist","abr","part"];
+var englishVerbs  = ["Infinitive", "To decide","To watch","To exist","To open","To leave"];
+var forConj7 = ["<strong>-</strong>","zzzz<strong>e</strong>","não zzzz<strong>as</strong>","zzzz<strong>a</strong>","zzzz<strong>amos</strong>","zzzz<strong>am</strong>","<strong>-</strong>"];
+var engConj7Z = ["-","2nd Person Sing. (positive)","2nd Person Sing. (negative)","2nd Person Sing. (3rd)","1st Person Plural","2nd Person Plural (3rd)","-"];
+var engConj7A = ["-","decide <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't decide <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","decide <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's decide","decide <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];
+var engConj7B = ["-","watch <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't watch <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","watch <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's watch","watch <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];
+var engConj7C = ["-","exist <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't exist <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","exist <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's exist","exist <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];
+var engConj7D = ["-","open <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't open <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","open <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's open","open <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];
+var engConj7E = ["-","leave <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't leave <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","leave <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's leave","leave <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];

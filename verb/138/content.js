@@ -1,0 +1,13 @@
+var lessonNumber = 138;
+var conjNum = 7;
+var verbTypeNum = 1;
+var narration =  ["Endings for the Portuguese imperative are a bit different.","There are no endings for he, she and they, because it's impossible to give an order in the third person.","There are two endings for the informal second person, depending if the order is positive or negative. Let's take a look."];
+var replaceText  = ["", "trabalh","fal","limp","cozinh","esper"];
+var englishVerbs  = ["Infinitive", "To work","To speak","To clean","To cook","To wait"];
+var forConj7 = ["<strong>-</strong>","zzzz<strong>a</strong>","não zzzz<strong>es</strong>","zzzz<strong>e</strong>","zzzz<strong>emos</strong>","zzzz<strong>em</strong>","<strong>-</strong>"];
+var engConj7Z = ["-","2nd Person Sing. (positive)","2nd Person Sing. (negative)","2nd Person Sing. (3rd)","1st Person Plural","2nd Person Plural (3rd)","-"];
+var engConj7A = ["-","work <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't work <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","work <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's work","work <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];
+var engConj7B = ["-","speak <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't speak <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","speak <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's speak","speak <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];
+var engConj7C = ["-","clean <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't clean <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","clean <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's clean","clean <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];
+var engConj7D = ["-","cook <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't cook <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","cook <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's cook","cook <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];
+var engConj7E = ["-","wait <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","don't wait <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","wait <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","let's wait","wait <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","-"];

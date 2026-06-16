@@ -1,0 +1,13 @@
+var lessonNumber = 135;
+var conjNum = 6;
+var verbTypeNum = 1;
+var narration =  ["The subjunctive mood can be difficult to understand when to use.","However, the endings for the subjunctive are not more difficult than other tenses.","Here are the endings for regular <strong>AR</strong> verbs in the subjunctive."];
+var replaceText  = ["", "esper","cozinh","limp","fal","trabalh"];
+var englishVerbs  = ["Infinitive", "To wait","To cook","To clean","To speak","To work"];
+var forConj6 = ["que (eu) zzzz<strong>e</strong>","que (tu) zzzz<strong>es</strong>","que (você) zzzz<strong>e</strong>","que (ele/ela) zzzz<strong>e</strong>","que (nós) zzzz<strong>emos</strong>","que (vocês) zzzz<strong>em</strong>","que (eles/elas) zzzz<strong>em</strong>"];
+var engConj6Z = ["1st Person Singular","2nd Person Singular","2nd Person Sing. (3rd)","3rd Person Singular","1st Person Plural","2nd Person Plural (3rd)","3rd Person Plural"];
+var engConj6A = ["that I wait","that you wait <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you wait <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she wait(s)","that we wait","that you wait <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they wait"];
+var engConj6B = ["that I cook","that you cook <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you cook <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she cook(s)","that we cook","that you cook <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they cook"];
+var engConj6C = ["that I clean","that you clean <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you clean <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she clean(s)","that we clean","that you clean <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they clean"];
+var engConj6D = ["that I speak","that you speak <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you speak <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she speak(s)","that we speak","that you speak <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they speak"];
+var engConj6E = ["that I work","that you work <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you work <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she work(s)","that we work","that you work <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they work"];

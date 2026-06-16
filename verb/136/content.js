@@ -1,0 +1,13 @@
+var lessonNumber = 136;
+var conjNum = 6;
+var verbTypeNum = 2;
+var narration =  ["The endings for regular <strong>ER</strong> verbs in the subjunctive are very similar.","Simply change the <strong>E</strong> from the <strong>AR</strong> endings to an <strong>A</strong>."];
+var replaceText  = ["", "com","beb","aprend","corr","depend"];
+var englishVerbs  = ["Infinitive","To eat","To drink","To learn","To run","To depend"];
+var forConj6 = ["que (eu) zzzz<strong>a</strong>","que (tu) zzzz<strong>as</strong>","que (você) zzzz<strong>a</strong>","que (ele/ela) zzzz<strong>a</strong>","que (nós) zzzz<strong>amos</strong>","que (vocês) zzzz<strong>am</strong>","que (eles/elas) zzzz<strong>am</strong>"];
+var engConj6Z = ["1st Person Singular","2nd Person Singular","2nd Person Sing. (3rd)","3rd Person Singular","1st Person Plural","2nd Person Plural (3rd)","3rd Person Plural"];
+var engConj6A = ["that I eat","that you eat <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you eat <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she eat(s)","that we eat","that you eat <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they eat"];
+var engConj6B = ["that I drink","that you drink <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you drink <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she drink(s)","that we drink","that you drink <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they drink"];
+var engConj6C = ["that I learn","that you learn <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you learn <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she learn(s)","that we learn","that you learn <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they learn"];
+var engConj6D = ["that I run","that you run <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you run <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she run(s)","that we run","that you run <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they run"];
+var engConj6E = ["that I depend","that you depend <span style='opacity: 0.5; font-size: 0.85em;'>(Portugal informal)</span>","that you depend <span style='opacity: 0.5; font-size: 0.85em;'>(Brazil informal)</span>","that he/she depend(s)","that we depend","that you depend <span style='opacity: 0.5; font-size: 0.85em;'>(plural)</span>","that they depend"];
