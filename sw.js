@@ -1387,28 +1387,45 @@ var assets = [
   'screens/block5.jpg',
 ];
 
-//fsdf
-
 self.addEventListener('install', function (event) {
-  //cache open
   event.waitUntil(
     caches.open(cacheName).then(function (cache) {
-      ///For LOOP
-      for (var i = 0; i < assets.length; i++) {
-        url = cacheURL + assets[i];
-        cache.add(url).then(function () {});
-      }
-      ///For LOOP
+      return Promise.all(
+        assets.map(function (asset) {
+          var url = cacheURL + asset;
+          return cache.add(url).catch(function (err) {
+            console.warn('Falha ao prÃ©-cachear:', url, err);
+          });
+        }),
+      );
     }),
   );
 });
 
 self.addEventListener('activate', function (event) {
-  event.waitUntil(caches.delete('OuinoCache' + oldVersion));
-  event.waitUntil(caches.delete('OuinoDynamic' + oldVersion));
+  event.waitUntil(
+    caches.keys().then(function (keys) {
+      return Promise.all(
+        keys
+          .filter(function (key) {
+            // Limpa versÃµes antigas que nÃ£o correspondam Ã  versÃ£o atual
+            return (
+              (key.includes('OuinoCache') && key !== cacheName) ||
+              (key.includes('OuinoDynamic') && key !== dynamicCache)
+            );
+          })
+          .map(function (key) {
+            return caches.delete(key);
+          }),
+      );
+    }),
+  );
 });
 
 self.addEventListener('fetch', function (event) {
+  // 1. FILTRO DE PROTOCOLO: Ignora chrome-extension:// e outros esquemas nÃ£o suportados
+  if (!event.request.url.startsWith('http')) return;
+
   var hasQuery = event.request.url.indexOf('?') != -1;
 
   if (!hasQuery) {
@@ -1418,20 +1435,25 @@ self.addEventListener('fetch', function (event) {
         .then(function (cacheRes) {
           return (
             cacheRes ||
-            fetch(event.request, { ignoreSearch: false }).then(
-              function (fetchRes) {
+            fetch(event.request).then(function (fetchRes) {
+              // CORREÃ‡ÃƒO: Validar status 200 E o esquema da URL
+              if (fetchRes.status === 200) {
                 return caches.open(dynamicCache).then(function (cache) {
                   cache.put(event.request.url, fetchRes.clone());
                   return fetchRes;
                 });
-              },
-            )
+              }
+              return fetchRes;
+            })
           );
         })
         .catch(function () {
-          return caches.open(cacheName).then(function (cache) {
-            return cache.match('offline/index.html');
-          });
+          // Fallback para pÃ¡gina offline se for uma navegaÃ§Ã£o principal
+          if (event.request.mode === 'navigate') {
+            return caches.open(cacheName).then(function (cache) {
+              return cache.match('offline/index.html');
+            });
+          }
         }),
     );
   } else {
@@ -1442,14 +1464,15 @@ self.addEventListener('fetch', function (event) {
           .then(function (response) {
             return (
               response ||
-              fetch(event.request, { ignoreSearch: true }).then(
-                function (fetchRes) {
+              fetch(event.request).then(function (fetchRes) {
+                if (fetchRes.status === 200) {
                   return caches.open(cacheName).then(function (cache) {
                     cache.put(event.request.url, fetchRes.clone());
                     return fetchRes;
                   });
-                },
-              )
+                }
+                return fetchRes;
+              })
             );
           });
       }),
